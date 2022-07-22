@@ -1,0 +1,125 @@
+*{margin:0;padding:0}
+/***** h1 for form name******/
+h1{
+    text-align: center;
+    margin-bottom:40px;
+    margin-top: 40px;
+    color: #3D4BB9;
+    font-style: italic;
+}
+/******* main form*********/
+form{
+    width: 960px;
+    display: block;
+    margin: 0 auto;
+}
+/***** form fieldset for all****/
+fieldset{
+    padding: 20px;
+    margin-bottom: 30px;
+}
+/****** legen style for form all legend****/
+legend{
+    border: 1px solid black;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+/****** input style form all input ********/
+input{
+    width: 300px;
+    padding:10px;
+    background-color: #F5F5F5;
+}
+/****** form name style*********/
+[for="name"]{
+    margin-right:61px;
+}
+/****** form email style*********/
+[for="email"]{
+    margin-right:95px;
+}
+/****** form Phone number style*********/
+[for="phone"]{
+    margin-right:33px;
+}
+/****** form web style*********/
+[for="web"]{
+    margin-right: 20px;
+}
+/****** form subject style*********/
+[for="subject"]{
+    margin-right:85px;
+}
+[name="subject"]{
+    width: 310px;
+    height: 40px;
+    background-color: #F5F5F5;
+}
+/****** form comment style*********/
+[for="comment"]{
+    position: absolute;
+}
+/****** form textarea style*********/
+textarea{
+    margin-left: 135px;
+    background-color: #F5F5F5;
+}
+/****** form radia button style*********/
+[for="one"],[for="two"]{
+    margin-left: 30px;
+}
+[name="choose"]{
+    position: absolute;
+    left: 35px;
+    margin-top: 3px;
+}
+/****** form checkbox style*********/
+[type="checkbox"]{
+    margin-right:20px;
+}
+[name="terms"]{
+    position: absolute;
+    left: 205px;
+    margin-top: 3px;
+}
+[for="terms"]{
+	margin-left:10px;
+}
+/****** form capture image style*********/
+[for="picText"]{
+    margin-right:20px;
+}
+#picText{
+    margin-left: 20px;
+    position: absolute;
+}
+/***** form main button*******/
+button{
+    background-color: #383838;
+    color: #FFFFFF;
+    padding: 10px;
+    width: 100px;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

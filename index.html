@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+<!------- CSS link --------------->
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<!-------- Form Name --------------->
+	<h1>Practies Form</h1>
+<!----------Main Form (start)------------>	
+<form action="#">	
+	<!------- form 01 Start-------------->
+		<fieldset>
+	<!------- form 01  caption -------------->
+			<legend>Contact Details</legend>
+			<!------ input Your name--------->
+				<label for="name">Your Name</label>
+					<input type="text" value="" id="name" placeholder="Enter Your Name"/> <br /><br />
+				
+			<!------ input email ------------>	
+				<label for="email">Email</label>
+					<input type="email" value="" id="email" placeholder="Enter Your Email"/> <br /><br />
+				
+			<!----- input phone ---------->	
+				<label for="phone">Phone <small>(Optional)</small></label>
+					<input type="number" value="" id="phone" placeholder=" Enter Your Phone No"/> <br /><br />
+					
+			<!------ input web Address --------->		
+				<label for="web">Website <small>(Optional)</small></label>
+					<input type="url" value="" id="web" placeholder="Enter Your Web Address"/> <br /><br />
+					
+		</fieldset>
+		
+	<!------- form 02 Start-------------->
+		<fieldset>
+		<!------- form 02  caption -------------->
+			<legend>Your Comments</legend>
+			<!---- input select subject-------->
+				<label for="subject">Subject</label>
+					<select name="subject" id="subject">
+						<option value=""></option>
+						<option value="Subject_01">subject 01</option>
+						<option value="Subject_02">subject 02</option>
+						<option value="Subject_03">subject 03</option>
+					</select> <br /><br />
+					
+				<!------- input comment field--------->	
+					<label for="comment">Comment:</label>
+						<textarea name="comment" id="comment" cols="30" rows="10"></textarea> <br /><br />
+					
+				<!-------- input Radio button ------------>	
+					<input type="radio" id="one" value="one" name="choose"/>
+						<label for="one">Choose Option One</label> <br /><br />
+								
+					<input type="radio" id="two" value="two" name="choose"/>
+						<label for="two">or,rather, Option Two</label> <br /><br />
+				<!-------- input conditional Checkbox------------>		
+					<label for="terms">Agree to terms</label>
+						<input type="checkbox" id="terms" name="terms" value="terms"/><br /><br />
+		</fieldset>
+	
+	
+	<!------- form 03 Start-------------->
+	
+		<fieldset>
+		<!------- form 02  caption -------------->
+			<legend>Are You Human ?</legend>
+			<!----- input capture image-------->
+					<label for="picText"><img src="imgs/image.jpg" alt="imgaes" /></label> 
+						<input type="text" id="picText"/>
+		</fieldset>
+	
+	<!---- form wrapper Button--------->
+	<button type="button">Submit</button>
+</form> <br /> <br />
+<!----------Main Form (end)------------>
+</body>
+</html>
